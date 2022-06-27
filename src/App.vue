@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MineSweeper/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MineSweeper from './components/MineSweeper.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MineSweeper
   }
 }
 </script>

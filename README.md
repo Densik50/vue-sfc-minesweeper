@@ -1,4 +1,7 @@
 # minesweeper
+-generation of mines is done in range <0,width*range) 
+-calculation of value around mines is done during placing mines (goes to all tiles around mine and increments value)
+-tile showing is done recursivly
 
 ## Project setup
 ```
@@ -14,11 +17,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
